@@ -1,0 +1,15 @@
+.venv/
+.git/
+.pytest_cache/
+__pycache__/
+*.pyc
+.DS_Store
+
+data/bronze/
+data/silver/
+data/gold/
+data/audit/
+data/quarantine/
+
+state/
+output/
