@@ -1,0 +1,2 @@
+order_id,order_date,customer_id,product_id,quantity,unit_price,_batch_id,_ingested_at_utc
+O1004,2026-07-27,C001,P103,2,25.75,retail-ed6fb0b171,2026-07-31T00:40:47.454532+00:00

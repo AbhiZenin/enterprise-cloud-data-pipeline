@@ -1,0 +1,10 @@
+dataset,check_name,passed,failed_rows,details
+customers,not_null,False,1,"columns=['customer_id', 'customer_name', 'email']"
+customers,unique,True,0,columns=['customer_id']
+products,not_null,True,0,"columns=['product_id', 'product_name', 'unit_price']"
+products,unique,True,0,columns=['product_id']
+sales,not_null,True,0,"columns=['order_id', 'customer_id', 'product_id', 'quantity']"
+sales,unique,True,0,columns=['order_id']
+sales,positive,False,1,column=quantity
+sales,referential_integrity,False,1,customer_id->customer_id
+sales,referential_integrity,True,0,product_id->product_id

@@ -1,0 +1,18 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: retail-lakehouse
+spec:
+  schedule: "0 2 * * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          restartPolicy: OnFailure
+          containers:
+            - name: pipeline
+              image: ghcr.io/example/retail-lakehouse:latest
+              args: ["python","-m","src.enterprise_pipeline.cli","run","--config","config/enterprise.yml"]
+              resources:
+                requests: {cpu: "250m", memory: "512Mi"}
+                limits: {cpu: "1", memory: "2Gi"}

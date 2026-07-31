@@ -1,0 +1,6 @@
+customer_id,customer_name,email,state,signup_date,effective_from,effective_to,is_current
+C001,Asha Reddy,asha@example.com,TX,2025-01-10,2026-07-30 23:44:18.187826+00:00,2026-07-31 00:04:37.598833+00:00,False
+C001,Asha Reddy,asha@example.com,AZ,2025-01-10 00:00:00,2026-07-31 00:04:37.598833+00:00,2026-07-31 00:06:55.448645+00:00,False
+C001,Asha Reddy,asha@example.com,TX,2025-01-10 00:00:00,2026-07-31 00:06:55.448645+00:00,,True
+C002,John Smith,john@example.com,CA,2025-02-14,2026-07-30 23:44:18.187826+00:00,,True
+C003,Maria Garcia,maria@example.com,AZ,2025-03-20,2026-07-30 23:44:18.187826+00:00,,True

@@ -1,0 +1,4 @@
+customer_id,customer_name,email,state,signup_date,_batch_id,_ingested_at_utc
+C001,Asha Reddy,asha@example.com,TX,2025-01-10,retail-6decdeb56a,2026-07-30T23:59:56.577356+00:00
+C002,John Smith,john@example.com,CA,2025-02-14,retail-6decdeb56a,2026-07-30T23:59:56.577356+00:00
+C003,Maria Garcia,maria@example.com,AZ,2025-03-20,retail-6decdeb56a,2026-07-30T23:59:56.577356+00:00

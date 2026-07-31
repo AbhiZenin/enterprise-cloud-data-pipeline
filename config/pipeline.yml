@@ -1,0 +1,11 @@
+pipeline:
+  batch_id: "2026-07-30-demo"
+  raw_dir: "data/raw"
+  bronze_dir: "data/bronze"
+  silver_dir: "data/silver"
+  gold_dir: "data/gold"
+  quality_dir: "output/quality"
+  currency: "USD"
+quality:
+  max_null_percentage: 5
+  allow_negative_quantity: false

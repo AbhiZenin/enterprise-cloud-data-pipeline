@@ -1,0 +1,5 @@
+product_id,product_name,category,unit_price,_batch_id,_ingested_at_utc,_source_file
+P100,Laptop Stand,Office,49.99,2026-07-30-demo,2026-07-30T23:26:36.216978+00:00,products.csv
+P101,Mechanical Keyboard,Electronics,89.5,2026-07-30-demo,2026-07-30T23:26:36.216978+00:00,products.csv
+P102,USB-C Hub,Electronics,39.0,2026-07-30-demo,2026-07-30T23:26:36.216978+00:00,products.csv
+P103,Desk Lamp,Office,25.75,2026-07-30-demo,2026-07-30T23:26:36.216978+00:00,products.csv

@@ -1,0 +1,5 @@
+product_id,product_name,category,unit_price,_batch_id,_ingested_at_utc
+P100,Laptop Stand,Office,49.99,retail-309ab7d211,2026-07-30T23:34:33.288851+00:00
+P101,Mechanical Keyboard,Electronics,89.5,retail-309ab7d211,2026-07-30T23:34:33.288851+00:00
+P102,USB-C Hub,Electronics,39.0,retail-309ab7d211,2026-07-30T23:34:33.288851+00:00
+P103,Desk Lamp,Office,25.75,retail-309ab7d211,2026-07-30T23:34:33.288851+00:00

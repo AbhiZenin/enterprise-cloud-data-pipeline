@@ -1,0 +1,2 @@
+customer_id,customer_name,email,state,signup_date,_batch_id,_ingested_at_utc
+C003,Maria Garcia,maria@example.com,AZ,2025-03-20,retail-309ab7d211,2026-07-30T23:34:33.282556+00:00

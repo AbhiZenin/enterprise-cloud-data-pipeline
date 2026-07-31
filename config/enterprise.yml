@@ -1,0 +1,25 @@
+environment: local
+pipeline:
+  name: retail_lakehouse
+  landing_dir: data/raw
+  bronze_dir: data/bronze
+  silver_dir: data/silver
+  gold_dir: data/gold
+  quarantine_dir: data/quarantine
+  checkpoint_dir: state/checkpoints
+  audit_dir: state/audit
+  batch_id_prefix: retail
+  partition_column: order_date
+quality:
+  fail_on_error: true
+  max_invalid_percentage: 10
+  required_columns:
+    customers: [customer_id, customer_name, email, state, signup_date]
+    products: [product_id, product_name, category, unit_price]
+    sales: [order_id, order_date, customer_id, product_id, quantity, unit_price]
+publishing:
+  snowflake_enabled: false
+  database: RETAIL_ANALYTICS
+  schema: GOLD
+observability:
+  metrics_port: 9101

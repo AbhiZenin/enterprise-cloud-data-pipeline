@@ -1,0 +1,6 @@
+customer_id,customer_name,email,state,signup_date
+C001,Asha Reddy,asha@example.com,TX,2025-01-10
+C002,John Smith,john@example.com,CA,2025-02-14
+C003,Maria Garcia,maria@example.com,AZ,2025-03-20
+C003,Maria Garcia,maria@example.com,AZ,2025-03-20
+C004,Invalid User,,WA,2025-04-01
